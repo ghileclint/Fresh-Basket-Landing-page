@@ -106,10 +106,106 @@ body {
 
 .hero-image-wrapper {
   flex-basis: 50%;
+  /* Flex basis is used to define the width of a flex item. */
 }
 
 .hero-image {
   height: 400px;
   width: 500px;
   border-radius: 8px;
+}
+
+.how-it-works {
+  background-color: #c0d4d4;
+  padding: 50px 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h3 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.title p {
+  color: #6b7280;
+}
+
+.card-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  border-radius: 10px;
+}
+
+.card h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background: #e0f2f1;
+  border-radius: 5px;
+  color: #059669;
+}
+
+.everything-you-need {
+  padding: 50px 20px;
+}
+
+.everything-you-need-title {
+  text-align: center;
+  line-height: 25px;
+}
+
+.everything-title h3 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.everything-you-need-title p {
+  color: #4b5563;
+}
+
+.everything-you-need-card-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.everything-you-need-card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.everything-you-need-card h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.everything-you-need-card p {
+  color: #4b5563;
+}
+
+.everything-you-need-card ul {
+  color: #4b5563;
 }
