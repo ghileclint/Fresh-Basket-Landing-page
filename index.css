@@ -364,4 +364,7 @@ footer div {
   footer div {
     display: block;
   }
+  footer div p {
+    margin-top: 5px;
+  }
 }
