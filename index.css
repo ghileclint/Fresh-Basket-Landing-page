@@ -359,12 +359,15 @@ footer div {
   text-align: center;
   font-size: 1.4rem;
 }
-
+footer hr {
+  border-bottom: 1px solid #e5e7eb;
+}
 @media(max-width: 680px) {
   footer div {
     display: block;
   }
   footer div p {
     margin-top: 5px;
+    font-size: 2vmin;
   }
 }
